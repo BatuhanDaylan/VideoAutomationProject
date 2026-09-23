@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/VideoAutomation.API/VideoAutomation.API.csproj" />
+    <Project Path="src/VideoAutomation.Application/VideoAutomation.Application.csproj" />
+    <Project Path="src/VideoAutomation.Domain/VideoAutomation.Domain.csproj" />
+    <Project Path="src/VideoAutomation.Infrastructure/VideoAutomation.Infrastructure.csproj" />
+    <Project Path="src/VideoAutomation.Shared/VideoAutomation.Shared.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/VideoAutomation.Tests/VideoAutomation.Tests.csproj" />
+  </Folder>
+</Solution>

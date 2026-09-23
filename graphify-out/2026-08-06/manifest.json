@@ -1,0 +1,887 @@
+{
+  "VideoAutomation.slnx": {
+    "mtime": 1785848288.9423876,
+    "ast_hash": "8c3fad9637e8e794114cf04d4b1672ed",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/Controllers/SettingsController.cs": {
+    "mtime": 1785934701.8234215,
+    "ast_hash": "b5381dada329c971bb8c3705c148b293",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/Controllers/TemplatesController.cs": {
+    "mtime": 1785848615.101155,
+    "ast_hash": "c43141442fbfdf0f61ede3d30877c3a2",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/Controllers/TrendsController.cs": {
+    "mtime": 1786004199.191412,
+    "ast_hash": "3ab396ba32a2e6f6b47ad5e061ee92a1",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/Controllers/VideosController.cs": {
+    "mtime": 1786016089.075221,
+    "ast_hash": "987bc4a151366c55ecd364207e12b220",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/Middleware/ErrorHandlingMiddleware.cs": {
+    "mtime": 1785848579.3912113,
+    "ast_hash": "dffa80d13d54449664693c677e07b640",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/Program.cs": {
+    "mtime": 1786016110.475713,
+    "ast_hash": "e066ee5c0d9457df7336b5842f933061",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/Properties/launchSettings.json": {
+    "mtime": 1785848266.9355514,
+    "ast_hash": "157b68754f424a7046ce1a6ca48a4c0f",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/VideoAutomation.API.csproj": {
+    "mtime": 1785848664.6912906,
+    "ast_hash": "d5174537e094a5cde9cd3335f373367c",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/appsettings.Development.json": {
+    "mtime": 1785848266.9365892,
+    "ast_hash": "804b473502a4c415cf75db61c56c32aa",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/appsettings.json": {
+    "mtime": 1786016128.2451854,
+    "ast_hash": "683e1259b80c21a8dffccc0e5d750358",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.Application/DTOs/AllDtos.cs": {
+    "mtime": 1786003963.535005,
+    "ast_hash": "87bc2f3665567f421eb39dae297fc4cb",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.Application/Interfaces/Agents/IAnalyzerAgent.cs": {
+    "mtime": 1785848506.0705054,
+    "ast_hash": "f33131488dd2160ad19a353c25538d7c",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.Application/Interfaces/Agents/IGeneratorAgent.cs": {
+    "mtime": 1785848508.8359826,
+    "ast_hash": "43205e5af163faab45524ba20ec28cfe",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.Application/Interfaces/Agents/IPublisherAgent.cs": {
+    "mtime": 1785848509.003954,
+    "ast_hash": "2781e6bb43d629cde8264b1d1854de99",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.Application/Interfaces/Agents/IScoutAgent.cs": {
+    "mtime": 1785848503.403729,
+    "ast_hash": "bcccd8c3ccfe7279d9cd57ab0a688ba0",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.Application/Interfaces/IContentGenerator.cs": {
+    "mtime": 1786004153.5907269,
+    "ast_hash": "c7cccd429feef2434de13804eb555d95",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.Application/Interfaces/ICryptoService.cs": {
+    "mtime": 1785848492.7733445,
+    "ast_hash": "bf4bb0f2b60cfc66a59ce0009a75a899",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.Application/Interfaces/INotificationService.cs": {
+    "mtime": 1785848492.606032,
+    "ast_hash": "98399594aa1d4fd71a5c328bfadb95f0",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.Application/Interfaces/IPublisher.cs": {
+    "mtime": 1785848490.975777,
+    "ast_hash": "81c228d17736e61a8c9fa5b9e6e22d10",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.Application/Interfaces/IScraper.cs": {
+    "mtime": 1785848478.0354235,
+    "ast_hash": "58a8941411b640bd82d105ccf05e96aa",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.Application/Interfaces/IStockVideoProvider.cs": {
+    "mtime": 1785928237.9752202,
+    "ast_hash": "ca80ea2f1cfc7f217bb50a3e20f0c7ce",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.Application/Interfaces/IVideoComposer.cs": {
+    "mtime": 1785928464.8823879,
+    "ast_hash": "a1c3b269a31c26732a23606f324e5aca",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.Application/Interfaces/IViralityScorer.cs": {
+    "mtime": 1785848480.263412,
+    "ast_hash": "4cb28886527331e60259b4ee0a4e22a0",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.Application/Services/ViralityScorer.cs": {
+    "mtime": 1785997741.012761,
+    "ast_hash": "91988039b125d06600d082d906219a93",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.Application/VideoAutomation.Application.csproj": {
+    "mtime": 1785854422.5347457,
+    "ast_hash": "14b013b7e3badd03e32d5182a70b1da7",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.Domain/Entities/BaseEntity.cs": {
+    "mtime": 1785848361.0132773,
+    "ast_hash": "f6c0d10f488383211efa6360632f194b",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.Domain/Entities/ChatMessage.cs": {
+    "mtime": 1785848394.5354168,
+    "ast_hash": "81511e64f44ce28b5ff94d872ef16621",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.Domain/Entities/PipelineRun.cs": {
+    "mtime": 1785848394.345726,
+    "ast_hash": "46f638104f1e6ed6b9d9b4648223de45",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.Domain/Entities/Publication.cs": {
+    "mtime": 1785848387.632213,
+    "ast_hash": "1808fd9457361377b76d53aa375cb7b9",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.Domain/Entities/Scene.cs": {
+    "mtime": 1786000601.7882922,
+    "ast_hash": "0dc39220391a866c40e1b97585932ee6",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.Domain/Entities/Script.cs": {
+    "mtime": 1785848377.5600133,
+    "ast_hash": "7a33eeaadbbb893f309767fbf3ea3c9c",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.Domain/Entities/Template.cs": {
+    "mtime": 1785848391.350189,
+    "ast_hash": "6474025572d7b3971718e2e3d37db1da",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.Domain/Entities/Trend.cs": {
+    "mtime": 1786003732.2066703,
+    "ast_hash": "91cc298b3bc1dcb839ccda712294ba66",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.Domain/Entities/Video.cs": {
+    "mtime": 1786015933.067688,
+    "ast_hash": "89556336e94810b2735dfaecf5917c46",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.Domain/Enums/Platform.cs": {
+    "mtime": 1785848341.7383952,
+    "ast_hash": "7345be99bfdea980b3c66859e1ea848f",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.Domain/Enums/TemplateType.cs": {
+    "mtime": 1785848348.4666018,
+    "ast_hash": "d8f468036fd2cccde6394e4f4b1b0fb4",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.Domain/Enums/TrendCategory.cs": {
+    "mtime": 1785848346.6915846,
+    "ast_hash": "a1371792935327bea99102c15ed48dec",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.Domain/Enums/VideoStatus.cs": {
+    "mtime": 1786015927.2780204,
+    "ast_hash": "fb43f46530fb906005ad19475c7c3741",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.Domain/Enums/VisualMode.cs": {
+    "mtime": 1785848348.3079832,
+    "ast_hash": "fe498002d5738c7620d149f4e6af9ffc",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.Domain/ValueObjects/ViralityScore.cs": {
+    "mtime": 1785997726.5722525,
+    "ast_hash": "a4e7cab5889eb688c48ffa76bb2557fe",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.Domain/VideoAutomation.Domain.csproj": {
+    "mtime": 1785848271.074072,
+    "ast_hash": "46b0780bd56312ea2d1bab391f179e89",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.Infrastructure/AI/GeminiClient.cs": {
+    "mtime": 1785939462.561086,
+    "ast_hash": "87bd99da823bb7c7d863dadff7157e5f",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.Infrastructure/AI/GeminiContentGenerator.cs": {
+    "mtime": 1786005807.8274174,
+    "ast_hash": "d235c806df48a8edd0cff1107e166d9c",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.Infrastructure/AI/GeminiScriptModels.cs": {
+    "mtime": 1786000591.487975,
+    "ast_hash": "d1116a059c9a710df4ae445f26c1c6c5",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.Infrastructure/Agents/AnalyzerAgent.cs": {
+    "mtime": 1786001290.8490574,
+    "ast_hash": "828756146f790e11468fb4e421e9b050",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.Infrastructure/Agents/GeneratorAgent.cs": {
+    "mtime": 1786016067.5370533,
+    "ast_hash": "eda406487b41381c377cbc704c615515",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.Infrastructure/Agents/ScoutAgent.cs": {
+    "mtime": 1786003897.8911881,
+    "ast_hash": "ecb79af1cdf4f374d11776e2a096ebe4",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.Infrastructure/Media/AiVideoClient.cs": {
+    "mtime": 1785934545.8897333,
+    "ast_hash": "777040ff8c0a402fc3b6f498aab50552",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.Infrastructure/Media/AiVideoStockProvider.cs": {
+    "mtime": 1785934557.0596726,
+    "ast_hash": "02298feb7bf6b481a452d3cafa59bf94",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.Infrastructure/Media/EdgeTtsService.cs": {
+    "mtime": 1785928661.866555,
+    "ast_hash": "254659b50768796f8c6be2f247273915",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.Infrastructure/Media/FFmpegRunner.cs": {
+    "mtime": 1786005686.414328,
+    "ast_hash": "7356096508040b1e91be9f090269f132",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.Infrastructure/Media/FFmpegVideoComposer.cs": {
+    "mtime": 1786015055.7954657,
+    "ast_hash": "a53fdca759169b7a628b336e46622bd7",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.Infrastructure/Media/PexelsStockVideoProvider.cs": {
+    "mtime": 1785930158.4386566,
+    "ast_hash": "50b5981860b1e9e889f5a4a1f4ae6d04",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.Infrastructure/Media/VeoClient.cs": {
+    "mtime": 1785999119.521176,
+    "ast_hash": "d14203547b24ad9a19b5b91808040f05",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.Infrastructure/Media/VeoVideoProvider.cs": {
+    "mtime": 1785998901.5745265,
+    "ast_hash": "babc84cff05b197ff0aea8ba60349506",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.Infrastructure/Persistence/AppDbContext.cs": {
+    "mtime": 1785997882.1225295,
+    "ast_hash": "10d49571397ebf71b5912f32f95f2aad",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.Infrastructure/Scrapers/InstagramScraper.cs": {
+    "mtime": 1785854390.451571,
+    "ast_hash": "f189a826037ff5770c90ed1697be06f0",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.Infrastructure/Scrapers/ScraperHelpers.cs": {
+    "mtime": 1785854338.322507,
+    "ast_hash": "d056a8767d96981502fac1847f29ce71",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.Infrastructure/Scrapers/TikTokScraper.cs": {
+    "mtime": 1785854360.0262141,
+    "ast_hash": "1a6ce30d42b9225ebc6a0568dda24feb",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.Infrastructure/Scrapers/TikTokTranscriptService.cs": {
+    "mtime": 1785940526.770316,
+    "ast_hash": "9cdfcbc09057b27bf8b8da8ecf5b42d6",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.Infrastructure/Scrapers/YouTubeScraper.cs": {
+    "mtime": 1786003743.6737864,
+    "ast_hash": "236b51ce67425d3cfed9d0c3051f11ea",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.Infrastructure/Scrapers/YouTubeTranscriptService.cs": {
+    "mtime": 1786001412.7071989,
+    "ast_hash": "fe779cd57d6cd7f89f7080758b30814f",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.Infrastructure/Security/AesCryptoProvider.cs": {
+    "mtime": 1785848462.0257993,
+    "ast_hash": "dc67d2ae1e5975f25491a4d494ffeb7c",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.Infrastructure/VideoAutomation.Infrastructure.csproj": {
+    "mtime": 1786015921.6131337,
+    "ast_hash": "788bef794da5148901fbeb5f46c065a7",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.Shared/Exceptions/AppExceptions.cs": {
+    "mtime": 1785920055.92602,
+    "ast_hash": "57f93f44136d6572c01c308cc3ca9c89",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.Shared/Logging/LoggerConfig.cs": {
+    "mtime": 1785848639.7174702,
+    "ast_hash": "251f1ffb9546478f200757e8fd3bb0c8",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.Shared/VideoAutomation.Shared.csproj": {
+    "mtime": 1785848328.502323,
+    "ast_hash": "8729c5de12143023ae1585679701a20d",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/1/hf-098dd37ebb5442fbbf229f4325e58c2d.jpg": {
+    "mtime": 1785929323.0638416,
+    "ast_hash": "a5b291d4d89ffb9714fd646ec87a6fd1",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/1/hf-1542ff4bfbf0474d8e4c82e0ae8e55fb.jpg": {
+    "mtime": 1785929374.588935,
+    "ast_hash": "1292ce0db719aea034a6e0f01c19269e",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/1/hf-2dcd6097b60c42c4bb57aebfb808e001.jpg": {
+    "mtime": 1785929447.8679569,
+    "ast_hash": "5f57cf09e242823a2a32e70ac9089b47",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/1/hf-71d0fdfb20224c21aeea9de936309283.jpg": {
+    "mtime": 1785929485.3299735,
+    "ast_hash": "35c1d0a863b0d0e6b63608c63972bdbc",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/1/hf-7c4b2d7e77d543b6a71c8ccadd677006.jpg": {
+    "mtime": 1785929393.7501295,
+    "ast_hash": "fb6d72e92ce1b61e27c3cc117c9b1d27",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/1/hf-812e7a24dc2945cca6f6e5c99b130863.jpg": {
+    "mtime": 1785929410.6677506,
+    "ast_hash": "0955c76f36464b91380ea5442dce575b",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/1/hf-92dc0845153d4b168d40a23c0e5e9843.jpg": {
+    "mtime": 1785929467.1894782,
+    "ast_hash": "e93d336e4ecf5676463b10e7f6a84098",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/1/hf-d8d7314046094a068e4d068b84e3ce4a.jpg": {
+    "mtime": 1785929430.242564,
+    "ast_hash": "5875cd231107e51c5ab770b0135f998b",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/1/hf-098dd37ebb5442fbbf229f4325e58c2d.mp4": {
+    "mtime": 1785929325.4306674,
+    "ast_hash": "9faea8b82ccbb512b9e8b31fca4e3d57",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/1/hf-1542ff4bfbf0474d8e4c82e0ae8e55fb.mp4": {
+    "mtime": 1785929376.8319955,
+    "ast_hash": "8a3a36d8a03eb1c32e5a55247874920e",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/1/hf-2dcd6097b60c42c4bb57aebfb808e001.mp4": {
+    "mtime": 1785929450.099717,
+    "ast_hash": "787f7165c6706ff2d6ba5a5a858b2485",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/1/hf-71d0fdfb20224c21aeea9de936309283.mp4": {
+    "mtime": 1785929487.5384393,
+    "ast_hash": "52c7efcb7301587082d8648dda428e39",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/1/hf-7c4b2d7e77d543b6a71c8ccadd677006.mp4": {
+    "mtime": 1785929395.9579217,
+    "ast_hash": "56ed0621076e051c411dcd2aaabd638b",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/1/hf-812e7a24dc2945cca6f6e5c99b130863.mp4": {
+    "mtime": 1785929413.0414007,
+    "ast_hash": "5d49d1b8f6e53f90de3280fbe20b35f0",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/1/hf-92dc0845153d4b168d40a23c0e5e9843.mp4": {
+    "mtime": 1785929469.3819187,
+    "ast_hash": "c01a8ad33b067de3362e8b5160749b3b",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/1/hf-d8d7314046094a068e4d068b84e3ce4a.mp4": {
+    "mtime": 1785929432.3872037,
+    "ast_hash": "69c0688f67c91541a93d60351ec32054",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/1/pexels-01069cca4c6e4be7ad8ecdadca4716be.mp4": {
+    "mtime": 1785934800.756314,
+    "ast_hash": "9d83d2570cebcdce334419f365b9afcc",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/1/pexels-0f5b795ad7ea4cff8f046aecaca33e93.mp4": {
+    "mtime": 1785928805.8809218,
+    "ast_hash": "31980e042c32cf2c1e8ea314b32b54f0",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/1/pexels-15c3450c07f342b18b7c3f771ad2763a.mp4": {
+    "mtime": 1785930191.0510068,
+    "ast_hash": "6ac198badfc6856165d9f3f0ea804038",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/1/pexels-23f2b83571344a25b943e31ef566213a.mp4": {
+    "mtime": 1785929864.778261,
+    "ast_hash": "711b18b379c45ffc318760915361e2c3",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/1/pexels-2b8c61c96cb144a3b14ee6978881ffd6.mp4": {
+    "mtime": 1785934745.657927,
+    "ast_hash": "711b18b379c45ffc318760915361e2c3",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/1/pexels-4027b3b4a54a42cfaf7b5dc47ecb865a.mp4": {
+    "mtime": 1785929867.1817367,
+    "ast_hash": "9d83d2570cebcdce334419f365b9afcc",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/1/pexels-42664e7d7dbf4e7ea57c5deb589e6b37.mp4": {
+    "mtime": 1785928809.3586707,
+    "ast_hash": "e52502bbd8799265107a6d6c57850d62",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/1/pexels-4c75ab593fac429e890255b471f18530.mp4": {
+    "mtime": 1785928874.7407103,
+    "ast_hash": "6ac198badfc6856165d9f3f0ea804038",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/1/pexels-4ece832605db41c1bf2c39be914f971d.mp4": {
+    "mtime": 1785930190.6944313,
+    "ast_hash": "31980e042c32cf2c1e8ea314b32b54f0",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/1/pexels-56017eb2d4694c06adfce0f7d591ebf7.mp4": {
+    "mtime": 1785934795.7893372,
+    "ast_hash": "31980e042c32cf2c1e8ea314b32b54f0",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/1/pexels-57bc1f9562524c588e6d58b1ec35a411.mp4": {
+    "mtime": 1785937765.271924,
+    "ast_hash": "9d83d2570cebcdce334419f365b9afcc",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/1/pexels-58f656c3b509422b9759087aa1bb243e.mp4": {
+    "mtime": 1785930195.1232908,
+    "ast_hash": "9d83d2570cebcdce334419f365b9afcc",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/1/pexels-5dc3940f746e45a99b4b1f3d5b35c8c5.mp4": {
+    "mtime": 1785930193.1954231,
+    "ast_hash": "711b18b379c45ffc318760915361e2c3",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/1/pexels-61253f9a736a4a909dc32c459ddb3225.mp4": {
+    "mtime": 1785934798.2999208,
+    "ast_hash": "711b18b379c45ffc318760915361e2c3",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/1/pexels-617b6e46b6ad4375a1cfe47573c30613.mp4": {
+    "mtime": 1785928710.498057,
+    "ast_hash": "6ac198badfc6856165d9f3f0ea804038",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/1/pexels-6be4bcc43d3f427a86d7077d999a0658.mp4": {
+    "mtime": 1785929869.2670598,
+    "ast_hash": "20df877f5a0547fdd8f32269b9cc9a5c",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/1/pexels-74e313304d8b40e6aca76c63c4d7779b.mp4": {
+    "mtime": 1785938090.4194593,
+    "ast_hash": "31980e042c32cf2c1e8ea314b32b54f0",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/1/pexels-79080ac9a54b4ceca0bf7948d00b51b0.mp4": {
+    "mtime": 1785928882.647702,
+    "ast_hash": "20df877f5a0547fdd8f32269b9cc9a5c",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/1/pexels-7adbcd5f2b5547308980671e8147492a.mp4": {
+    "mtime": 1785928809.18077,
+    "ast_hash": "711b18b379c45ffc318760915361e2c3",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/1/pexels-82f6db93db3a41228dc52a99b6cd6e7b.mp4": {
+    "mtime": 1785928816.1711779,
+    "ast_hash": "1190b87f1388bb054a81bf892981a156",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/1/pexels-84326f8ce9f74d9b82eef47ba34f0591.mp4": {
+    "mtime": 1785929862.3612418,
+    "ast_hash": "6ac198badfc6856165d9f3f0ea804038",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/1/pexels-8564d1d39441483a8eef401de06d6644.mp4": {
+    "mtime": 1785929865.0036857,
+    "ast_hash": "e52502bbd8799265107a6d6c57850d62",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/1/pexels-97fafe6919e044b6bf9fcebea5c92262.mp4": {
+    "mtime": 1785935430.5649223,
+    "ast_hash": "711b18b379c45ffc318760915361e2c3",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/1/pexels-a607446658454ab4a446c17773c0d1fd.mp4": {
+    "mtime": 1785928883.0465908,
+    "ast_hash": "1190b87f1388bb054a81bf892981a156",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/1/pexels-a9079e6f76d74fe2833c7c3fbd141a41.mp4": {
+    "mtime": 1785928874.2068317,
+    "ast_hash": "31980e042c32cf2c1e8ea314b32b54f0",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/1/pexels-a912c83d3ef54a8b80619ac143c49afb.mp4": {
+    "mtime": 1785928877.0008564,
+    "ast_hash": "e52502bbd8799265107a6d6c57850d62",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/1/pexels-adaeb13624574ea2b004d56fd2681e35.mp4": {
+    "mtime": 1785929861.811305,
+    "ast_hash": "31980e042c32cf2c1e8ea314b32b54f0",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/1/pexels-ae3cfda3d38f46f98e9145eb00cba609.mp4": {
+    "mtime": 1785934741.431122,
+    "ast_hash": "31980e042c32cf2c1e8ea314b32b54f0",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/1/pexels-b42cc0b5827949bca5da60526a3ac40f.mp4": {
+    "mtime": 1785938094.9304938,
+    "ast_hash": "9d83d2570cebcdce334419f365b9afcc",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/1/pexels-b5052207713c49a1979fa125f9cb751d.mp4": {
+    "mtime": 1785935433.9053,
+    "ast_hash": "20df877f5a0547fdd8f32269b9cc9a5c",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/1/pexels-b783c8a4a225436cb65199aacf4219ac.mp4": {
+    "mtime": 1785928812.348422,
+    "ast_hash": "4a8a0e78ea559e38ddfcf86b58d89e86",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/1/pexels-bb9455ae302a46cabc846137785fa19e.mp4": {
+    "mtime": 1785930193.3659956,
+    "ast_hash": "e52502bbd8799265107a6d6c57850d62",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/1/pexels-c2e03fabea8b419bb1fa48b09569fbe2.mp4": {
+    "mtime": 1785929867.434991,
+    "ast_hash": "4a8a0e78ea559e38ddfcf86b58d89e86",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/1/pexels-c827deffaf724bbd95ddf301bc4eb3fb.mp4": {
+    "mtime": 1785928811.9298005,
+    "ast_hash": "9d83d2570cebcdce334419f365b9afcc",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/1/pexels-ca1ebbb81453480c81351ca6820eba34.mp4": {
+    "mtime": 1785928879.3783975,
+    "ast_hash": "9d83d2570cebcdce334419f365b9afcc",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/1/pexels-cca24fa55ef04729ad5b382b83068ab4.mp4": {
+    "mtime": 1785934750.0182717,
+    "ast_hash": "20df877f5a0547fdd8f32269b9cc9a5c",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/1/pexels-ccb09af072af47f79674d96453071354.mp4": {
+    "mtime": 1785937767.001507,
+    "ast_hash": "20df877f5a0547fdd8f32269b9cc9a5c",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/1/pexels-cedbba3b7d88499b9942c70ae2144198.mp4": {
+    "mtime": 1785930197.609581,
+    "ast_hash": "1190b87f1388bb054a81bf892981a156",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/1/pexels-d0dca931e01d4001a22215f7b7b6ecf8.mp4": {
+    "mtime": 1785930197.0912278,
+    "ast_hash": "20df877f5a0547fdd8f32269b9cc9a5c",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/1/pexels-d1c95083799d4030825ba6e0acdf62db.mp4": {
+    "mtime": 1785935432.3913262,
+    "ast_hash": "9d83d2570cebcdce334419f365b9afcc",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/1/pexels-d237a57dff754f3bae1159673d8ab49f.mp4": {
+    "mtime": 1785938096.9928656,
+    "ast_hash": "20df877f5a0547fdd8f32269b9cc9a5c",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/1/pexels-e08ac7197798415d93e40a9f420f40a9.mp4": {
+    "mtime": 1785930195.417776,
+    "ast_hash": "4a8a0e78ea559e38ddfcf86b58d89e86",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/1/pexels-e1f84709df9a470caa9d41a04543904e.mp4": {
+    "mtime": 1785934802.430898,
+    "ast_hash": "20df877f5a0547fdd8f32269b9cc9a5c",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/1/pexels-e56782367a2244f9af338eb697b40e82.mp4": {
+    "mtime": 1785937763.323196,
+    "ast_hash": "711b18b379c45ffc318760915361e2c3",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/1/pexels-ead743844c4e40559cba73a87c15ed9b.mp4": {
+    "mtime": 1785938092.8578286,
+    "ast_hash": "711b18b379c45ffc318760915361e2c3",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/1/pexels-ec25f15b06f742fb8bb027fb4aefbe20.mp4": {
+    "mtime": 1785928815.5446365,
+    "ast_hash": "20df877f5a0547fdd8f32269b9cc9a5c",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/1/pexels-edd8f3b0d9ce41d0a3c3a46a84051e9e.mp4": {
+    "mtime": 1785928806.2419245,
+    "ast_hash": "6ac198badfc6856165d9f3f0ea804038",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/1/pexels-f843d431ff12420ea9874eb2c2ea3329.mp4": {
+    "mtime": 1785928879.5987134,
+    "ast_hash": "4a8a0e78ea559e38ddfcf86b58d89e86",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/1/pexels-facfb01327ca41829f46c252010e0818.mp4": {
+    "mtime": 1785935427.8896296,
+    "ast_hash": "31980e042c32cf2c1e8ea314b32b54f0",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/1/pexels-fc070f22d5be4fc793017725b3177ab6.mp4": {
+    "mtime": 1785934748.1407666,
+    "ast_hash": "9d83d2570cebcdce334419f365b9afcc",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/1/pexels-fc3032d68b9043a6b090c4e60a788753.mp4": {
+    "mtime": 1785928876.8014927,
+    "ast_hash": "711b18b379c45ffc318760915361e2c3",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/1/pexels-fc924f483db64adeb7462d2636f4e5a6.mp4": {
+    "mtime": 1785937756.188385,
+    "ast_hash": "31980e042c32cf2c1e8ea314b32b54f0",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/1/pexels-fd62ace25ea24f90bbdda46f882361e5.mp4": {
+    "mtime": 1785929869.6733575,
+    "ast_hash": "1190b87f1388bb054a81bf892981a156",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/1/pexels-fedbfae78d9b4e70ba8ea7ed4c19e439.mp4": {
+    "mtime": 1785928710.02361,
+    "ast_hash": "31980e042c32cf2c1e8ea314b32b54f0",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/1/scene-0-audio.mp3": {
+    "mtime": 1785938092.1521444,
+    "ast_hash": "f39c6c7b8ea592f7b396c2f469d6d2f0",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/1/scene-0-composed.mp4": {
+    "mtime": 1785938102.3721254,
+    "ast_hash": "6b16ea89905b22b9c0f7a22eb793feab",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/1/scene-0-raw.mp3": {
+    "mtime": 1785938092.0130234,
+    "ast_hash": "dfae8e0434db1c818d138431befff59a",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/1/scene-1-audio.mp3": {
+    "mtime": 1785938094.4295986,
+    "ast_hash": "9f1beaec611497738d3eb81d3e5e58e7",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/1/scene-1-composed.mp4": {
+    "mtime": 1785938105.4018042,
+    "ast_hash": "d8ca10e21162d7fcb5e8b37d09064ae3",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/1/scene-1-raw.mp3": {
+    "mtime": 1785938094.3050568,
+    "ast_hash": "9310ddad16ab601dfd83c2677dcb8453",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/1/scene-2-audio.mp3": {
+    "mtime": 1785938096.7204025,
+    "ast_hash": "33a1cbb29cfbb760df49ab8c00eff1a7",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/1/scene-2-composed.mp4": {
+    "mtime": 1785938108.1701906,
+    "ast_hash": "b4ccc7b313a61b59027f7133435a9d81",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/1/scene-2-raw.mp3": {
+    "mtime": 1785938096.597152,
+    "ast_hash": "58d4a521f64214685ec32e1abfda5183",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/1/scene-3-audio.mp3": {
+    "mtime": 1785938098.3857236,
+    "ast_hash": "1dc709bc8b4a63877e12aa95a7450222",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/1/scene-3-composed.mp4": {
+    "mtime": 1785938110.6933644,
+    "ast_hash": "54ac30a2cc5a29701bbc2fda5b1c509a",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/1/scene-3-raw.mp3": {
+    "mtime": 1785938098.266961,
+    "ast_hash": "47d8f3b41ce8cc7daaac36eae0125810",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.Infrastructure/Scrapers/LanguageHeuristics.cs": {
+    "mtime": 1786003834.895658,
+    "ast_hash": "9a834a2c214230978ceee74f7028bb05",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.Domain/Enums/VisualModeExtensions.cs": {
+    "mtime": 1786005698.8470516,
+    "ast_hash": "57aa6c2e24ee15ca04d96a5364d90e34",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/10/pexels-1ab3a9a9e2e940e1bed490bc44adec0a.mp4": {
+    "mtime": 1786015110.2541206,
+    "ast_hash": "8fdde06022c8bee664b2703c3add66db",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/10/pexels-4055b5750dc34d1c8d9af24aa403c648.mp4": {
+    "mtime": 1786015116.381142,
+    "ast_hash": "bdef3f61222e9b5449d3484b4769ec24",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/10/pexels-420d10be81b64c0ebccae01febd263c5.mp4": {
+    "mtime": 1786015112.8514137,
+    "ast_hash": "c6da8a34c60cc17534af8c9b3c13a7d7",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/10/pexels-82a003c5986a473d8b21ea0a3705ff0b.mp4": {
+    "mtime": 1786015105.337305,
+    "ast_hash": "227d88a4b1490dcab80026530a068a89",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/10/scene-0-audio.mp3": {
+    "mtime": 1786016322.3484125,
+    "ast_hash": "7f33923219c69739e7c7e63f2a4dabac",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/10/scene-0-composed.mp4": {
+    "mtime": 1786016333.3359706,
+    "ast_hash": "3f06b6c1e8a8f7998866c8ea48f56d74",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/10/scene-0-raw.mp3": {
+    "mtime": 1786016322.198299,
+    "ast_hash": "e8698db02ba56b8866221132d6dba39f",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/10/scene-1-audio.mp3": {
+    "mtime": 1786016325.3593705,
+    "ast_hash": "9ce47ccf46a13d2b5642b2a1da1505d5",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/10/scene-1-composed.mp4": {
+    "mtime": 1786016335.7731462,
+    "ast_hash": "9c6d86938104b649c24093a11685fbb9",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/10/scene-1-raw.mp3": {
+    "mtime": 1786016325.2511277,
+    "ast_hash": "59e96e98f460dbe32cecbc0e226d7506",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/10/scene-2-audio.mp3": {
+    "mtime": 1786016327.8327253,
+    "ast_hash": "c91bc5a42ac7d5abe943aabec920ab9e",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/10/scene-2-composed.mp4": {
+    "mtime": 1786016337.967537,
+    "ast_hash": "a89328f82a4100a781f32c1aa9842820",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/10/scene-2-raw.mp3": {
+    "mtime": 1786016327.7214584,
+    "ast_hash": "e2c81536cd0e0b231e6121fdba7803de",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/10/scene-3-audio.mp3": {
+    "mtime": 1786016329.7408917,
+    "ast_hash": "d0c9e3e8dfb385fcc229675d656d2cbf",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/10/scene-3-composed.mp4": {
+    "mtime": 1786016339.9597726,
+    "ast_hash": "1f552085d2048938ce2d4ea8f3bcf3f1",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/10/scene-3-raw.mp3": {
+    "mtime": 1786016329.611967,
+    "ast_hash": "2f33bb1fc4468a363ed9246b17155666",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.Application/Interfaces/INotifier.cs": {
+    "mtime": 1786015939.9580052,
+    "ast_hash": "3e92940f29aaea8c7779cc1b6261379b",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.Infrastructure/Agents/PublisherAgent.cs": {
+    "mtime": 1786016502.5150332,
+    "ast_hash": "1788b837f6e4f15e31da537a820613df",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.Infrastructure/Publishing/TelegramNotifier.cs": {
+    "mtime": 1786016208.645447,
+    "ast_hash": "1d80429d7b0cedf993638b29ee801fb5",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.Infrastructure/Publishing/TelegramUpdatePollingService.cs": {
+    "mtime": 1786016282.1841824,
+    "ast_hash": "2b8152e3c34174ed35ee6b35b05b7b7a",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.Infrastructure/Publishing/YouTubePublisher.cs": {
+    "mtime": 1786016182.7111883,
+    "ast_hash": "be61e68111e29d92de5b4c0208807d40",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/10/pexels-1ebab2013c1844d3842e08c86ceba777.mp4": {
+    "mtime": 1786016322.7457576,
+    "ast_hash": "8fdde06022c8bee664b2703c3add66db",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/10/pexels-2d98b81aa07346ae9230675c8f01b906.mp4": {
+    "mtime": 1786016328.0102942,
+    "ast_hash": "bdef3f61222e9b5449d3484b4769ec24",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/10/pexels-4283d0bdf6c74c79b4ffe4ebe8058c1d.mp4": {
+    "mtime": 1786016319.3319862,
+    "ast_hash": "227d88a4b1490dcab80026530a068a89",
+    "semantic_hash": ""
+  },
+  "src/VideoAutomation.API/assets/work/10/pexels-ebaa271ee4d94b379f0aee8de1e1d1ae.mp4": {
+    "mtime": 1786016325.529733,
+    "ast_hash": "c6da8a34c60cc17534af8c9b3c13a7d7",
+    "semantic_hash": ""
+  }
+}

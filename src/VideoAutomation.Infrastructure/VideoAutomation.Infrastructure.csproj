@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\VideoAutomation.Application\VideoAutomation.Application.csproj" />
+    <ProjectReference Include="..\VideoAutomation.Domain\VideoAutomation.Domain.csproj" />
+    <ProjectReference Include="..\VideoAutomation.Shared\VideoAutomation.Shared.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Google.Apis.YouTube.v3" Version="1.75.0.4207" />
+    <PackageReference Include="Hangfire.Core" Version="1.8.24" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="10.0.10">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="10.0.10" />
+    <PackageReference Include="Microsoft.Extensions.Http" Version="10.0.10" />
+    <PackageReference Include="Polly" Version="8.7.0" />
+    <PackageReference Include="Xabe.FFmpeg" Version="6.0.2" />
+    <PackageReference Include="Xabe.FFmpeg.Downloader" Version="6.0.2" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <!-- Lets the test project reach internal helpers (CleanJsonResponse, GeminiScriptResponse,
+       ScoutAgent.ApplyCrossPlatformMatching/JaccardSimilarity) without making them public. -->
+  <ItemGroup>
+    <InternalsVisibleTo Include="VideoAutomation.Tests" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,6 @@
+@VideoAutomation.API_HostAddress = http://localhost:5079
+
+GET {{VideoAutomation.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

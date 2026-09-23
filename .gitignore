@@ -1,0 +1,38 @@
+# Build
+bin/
+obj/
+*.user
+*.suo
+
+# IDE
+.vs/
+.vscode/
+.idea/
+
+# Environment
+.env
+*.env.local
+
+# Database
+*.db
+*.db-shm
+*.db-wal
+
+# Output
+output/
+logs/
+
+# Pipeline runtime artifacts (üretilen video/ses/görsel — kaynak değil)
+src/VideoAutomation.API/assets/work/
+# gerçek Google OAuth refresh token'ı içerir — asla commit etme
+src/VideoAutomation.API/assets/youtube-token/
+# vendored ffmpeg ikili dosyaları (~227MB) — repo'ya değil, kurulum adımına ait
+src/VideoAutomation.API/assets/ffmpeg/
+
+# Node
+node_modules/
+dist/
+
+# OS
+Thumbs.db
+.DS_Store

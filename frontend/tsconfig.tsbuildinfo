@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/api/client.ts","./src/api/types.ts","./src/auth/authcontext.tsx","./src/components/apikeysmodal.tsx","./src/components/common.tsx","./src/hooks/usepolling.ts","./src/pages/chatpage.tsx","./src/pages/dashboardpage.tsx","./src/pages/loginpage.tsx","./src/pages/trendspage.tsx","./src/pages/videospage.tsx"],"version":"5.9.3"}

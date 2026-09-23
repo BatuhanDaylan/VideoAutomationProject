@@ -1,0 +1,92 @@
+{
+  "package.json": {
+    "mtime": 1786083567.158259,
+    "ast_hash": "6ddecd667c55b1d4633445b667304154",
+    "semantic_hash": ""
+  },
+  "src/App.tsx": {
+    "mtime": 1786085027.3282323,
+    "ast_hash": "1d05d5b39a18c3d61291ec7b68bb3801",
+    "semantic_hash": ""
+  },
+  "src/api/client.ts": {
+    "mtime": 1786350424.643311,
+    "ast_hash": "9fa8ccf394a48ed8ba3be9f3d16eedc8",
+    "semantic_hash": ""
+  },
+  "src/api/types.ts": {
+    "mtime": 1786105034.5413983,
+    "ast_hash": "90d93cca1cde52a0010143cb3a53bbdd",
+    "semantic_hash": ""
+  },
+  "src/components/common.tsx": {
+    "mtime": 1786083349.4077196,
+    "ast_hash": "a791f9b18a4acbad848ddaa4c478a45e",
+    "semantic_hash": ""
+  },
+  "src/hooks/usePolling.ts": {
+    "mtime": 1786083319.5359445,
+    "ast_hash": "39a3d5a6244c1d77b16565ddbb55c295",
+    "semantic_hash": ""
+  },
+  "src/main.tsx": {
+    "mtime": 1786083305.5709586,
+    "ast_hash": "ae2027b2474919fdef27befe85dea50c",
+    "semantic_hash": ""
+  },
+  "src/pages/ChatPage.tsx": {
+    "mtime": 1786090115.9688494,
+    "ast_hash": "eed359dabae111f936831c2eb7e6b752",
+    "semantic_hash": ""
+  },
+  "src/pages/DashboardPage.tsx": {
+    "mtime": 1786350486.3671694,
+    "ast_hash": "31f6cf78580d5eae75d27cb7413e2810",
+    "semantic_hash": ""
+  },
+  "src/pages/TrendsPage.tsx": {
+    "mtime": 1786104242.2418263,
+    "ast_hash": "1baff9d4d71094c88fea470744dc97d4",
+    "semantic_hash": ""
+  },
+  "src/pages/VideosPage.tsx": {
+    "mtime": 1786105141.7806525,
+    "ast_hash": "3cb128aeefb1a1fb76a7b2d2827ef05c",
+    "semantic_hash": ""
+  },
+  "tsconfig.json": {
+    "mtime": 1786083207.8548295,
+    "ast_hash": "2d4f2bd1c06f3b4efc81a5721ebd2449",
+    "semantic_hash": ""
+  },
+  "tsconfig.node.json": {
+    "mtime": 1786083563.0364904,
+    "ast_hash": "578c7e7f3573163fa6626486e8c8fd3c",
+    "semantic_hash": ""
+  },
+  "vite.config.d.ts": {
+    "mtime": 1786083583.8873148,
+    "ast_hash": "9fcf75521f4c43fd8b75300e0f63b867",
+    "semantic_hash": ""
+  },
+  "vite.config.js": {
+    "mtime": 1786083583.8623438,
+    "ast_hash": "56a8817447f33a0420a075d6cca7a006",
+    "semantic_hash": ""
+  },
+  "vite.config.ts": {
+    "mtime": 1786083198.901904,
+    "ast_hash": "98b704aae858314badedc435854188d2",
+    "semantic_hash": ""
+  },
+  "README.md": {
+    "mtime": 1786083719.5343153,
+    "ast_hash": "41e9488052b87d93c2688b972d3dccdd",
+    "semantic_hash": ""
+  },
+  "index.html": {
+    "mtime": 1786083217.3388863,
+    "ast_hash": "e76f980219b8e37b39108f4a997f7aae",
+    "semantic_hash": ""
+  }
+}
